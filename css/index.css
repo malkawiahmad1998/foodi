@@ -1,0 +1,106 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+#imgLogo{
+    width: 150px;
+    height: 125px;
+
+}
+
+.collapse{
+    margin-left: 30%;
+}
+
+#icon{
+    margin: auto auto;
+    padding: 0 20px;
+    color: black;
+}
+
+#icon:hover{
+    color: rgb(122, 0, 0);
+}
+.btn{
+    color: rgb(122, 0, 0);
+    background-color:  rgb(255, 255, 255);
+   border-color: rgb(122, 0, 0);
+
+}
+
+
+.btn:hover{
+    background-color: rgb(156, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color:rgb(156, 0, 0);
+}
+
+.nav-item{
+    margin: 0px 20px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 100px;
+    background-color: #ffffff;
+    padding: 10px;
+    height: 650px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #spanColor{
+    color: rgb(77, 209, 60);
+  }
+
+h1,h4{
+    margin: 60px;
+    text-align: left;
+    
+}
+
+#gridImage{
+    width: 600px;
+    height: 600px;
+}
+
+#orderNow{
+    border: none;
+    padding: 7px;
+    border-radius: 50px;
+    background-color: rgb(122, 255, 96);
+    color: #ffffff;
+    margin-left: 50px;
+}
+
+#playBtn{
+    background-color: #ffffff;
+    border-radius:440px;
+    border: none;
+    margin-left: 22px;    
+    
+}
+
+#playIcon{
+    height: 75px;
+    width: 75px;
+    
+}
+
+.twoBtns{
+    display: flex;
+}
+
+#WN{
+    margin-top: 18px;
+    margin-left: 25px;
+}
+
