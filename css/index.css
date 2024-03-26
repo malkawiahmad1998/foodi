@@ -83,6 +83,12 @@ body{
         width: 350px;
     }
 
+    #orderNow{
+        font-size: 20px;   
+        
+    }
+
+
     #section2>div{
         margin-top: 560px;
     }
@@ -246,17 +252,6 @@ h4{
     margin-left: 25px;
 }
 
-
-@media only screen and (max-width: 550px) {
-    #orderNow{
-
-    background: #ff0505;
-    }
-
-    #spanColor{
-        color: #ff0505;
-    }
-  }
 
 
 #customer{
