@@ -83,6 +83,13 @@ body{
         width: 350px;
     }
 
+    #imgsss{
+        height: 100px;
+        width: 150x;
+        border-radius: 50px;
+    }
+    
+
     #orderNow{
         font-size: 20px;   
         
@@ -103,6 +110,7 @@ body{
 
     .card{
         width: 200px;
+        height: 255px;
     }
 
 
@@ -276,8 +284,9 @@ h4{
     grid-gap: 10px;
 }
 #imgsss{
-    height: 200px;
+    height: 175px;
     width: 250px;
+    border-radius: 50px;
 }
 
 .card{
@@ -288,6 +297,7 @@ h4{
     text-decoration: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-weight: bold;
+    padding: 21px;
 }
 
 .card:hover{
