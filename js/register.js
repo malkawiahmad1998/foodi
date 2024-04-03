@@ -5,8 +5,11 @@ var Password = document.getElementById('form3Example4c');
 var repPassword = document.getElementById('form3Example4cd');
 var Register = document.getElementById('submit');
 var dataFromStorage = JSON.parse(localStorage.getItem('userDataFromLocal'))
-
-var allUsers = dataFromStorage
+if(dataFromStorage==null){
+    var allUsers = []
+}
+else{ allUsers = dataFromStorage
+}
 
 
 
@@ -21,6 +24,6 @@ regForm.addEventListener('submit',function(e){
     allUsers.push(userData)
    
     localStorage.setItem('userDataFromLocal',JSON.stringify(allUsers))
-    
+    window.location.href = 'login.html'
     
 })
