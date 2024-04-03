@@ -9,7 +9,7 @@ if(isLogin == null){
     window.location.href = 'login.html';
 }
 else if (isLogin == false){
-    alert('please login firs')
+    alert('please login first')
     window.location.href = 'login.html'
 }else{
     console.log(isLogin)
@@ -19,14 +19,18 @@ else if (isLogin == false){
 
 
 function fav(index){
-favButton[index].addEventListener('click', function(){
+    console.log(index)
     var fill = document.getElementsByClassName('bi-heart-fill')[index]
-    
-   if(fill.style.display == 'none'){
-    fill.style.display == 'block'
+    console.log(fill)
+    console.log(fill.style.display)
+   if(fill.style.display == 'none' ||fill.style.display =='' ){
+    console.log('mn')
+
+    fill.style.display = 'block'
+    console.log(fill.style.display)
+
    }
    else{
-    fill.style.display == 'none'
+    fill.style.display = 'none'
    }
-})
 }
