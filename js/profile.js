@@ -7,3 +7,5 @@ let userName = document.getElementById('userName')
 
 let userData = JSON.parse(localStorage.getItem('userDataFromLocal'))
 
+
+

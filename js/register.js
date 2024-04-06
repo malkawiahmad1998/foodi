@@ -10,17 +10,19 @@ var repPassword = document.getElementById('form3Example4cdrep')
 var Register = document.getElementById('submit');
 
 
-var dataFromStorage = JSON.parse(localStorage.getItem('userDataFromLocal'))
 if(dataFromStorage==null){
     var allUsers = []
 }
-else{ allUsers = dataFromStorage
+else{ 
+    var dataFromStorage = JSON.parse(localStorage.getItem('userDataFromLocal'))
+    var allUsers=dataFromStorage;
 }
-
+console.log(regForm)
 
 
 regForm.addEventListener('submit',function(e){
     e.preventDefault();
+    alert()
     var userData = {
         Fname : Fname.value,
         Lname : Lname.value,
@@ -33,6 +35,7 @@ regForm.addEventListener('submit',function(e){
         
         
     }
+    console.log(userData)
     allUsers.push(userData)
     
    
