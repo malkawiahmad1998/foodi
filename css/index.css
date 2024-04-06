@@ -435,3 +435,12 @@ h4{
     
     }
 
+    #profLogo{
+        margin-right: 18px;
+        color: black;
+    }
+    
+    #profLogo:hover{
+        color:  rgb(57, 159, 44);
+    }
+    
