@@ -4,8 +4,7 @@ let Email = document.getElementById('Email')
 let phoneNum = document.getElementById('phoneNum')
 let gender = document.getElementById('gender')
 let userName = document.getElementById('userName')
+let mainName = document.getElementById('mainName')
 
 let userData = JSON.parse(localStorage.getItem('userDataFromLocal'))
-
-
 

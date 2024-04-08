@@ -19,18 +19,18 @@ else if (isLogin == false){
 
 
 function fav(index){
-    console.log(index)
+
     var fill = document.getElementsByClassName('bi-heart-fill')[index]
-    console.log(fill)
-    console.log(fill.style.display)
-   if(fill.style.display == 'none' ||fill.style.display =='' ){
-    console.log('mn')
+    
+    
+   if(fill.style.display == 'none' || fill.style.display =='' ){
 
     fill.style.display = 'block'
-    console.log(fill.style.display)
+    
 
    }
    else{
     fill.style.display = 'none'
+    
    }
 }
