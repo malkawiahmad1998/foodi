@@ -28,9 +28,12 @@ function fav(index){
     fill.style.display = 'block'
     
 
+    
+
    }
    else{
     fill.style.display = 'none'
     
+
    }
 }
