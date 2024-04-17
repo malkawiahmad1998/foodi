@@ -35,11 +35,31 @@ addNewCardForm.addEventListener('submit',function(e){
     var deleteBtn = document.createElement('button');
     deleteBtn.className = 'btn-primary'
     deleteBtn.innerHTML ='Delete'
+    deleteBtn.onclick = function(){
+        cardsBody.removeChild(card);
+    }
+
 
      //updateButton
      var updateBtn = document.createElement('button');
      updateBtn.className = 'btn-primary'
      updateBtn.innerHTML ='Update'
+    
+    updateBtn.onclick = function(){
+        cardsBody.removeChild(card);
+        image.value = '';
+        title.value = '';
+        description.value = '';
+        price.value = '';
+        image.focus();
+        newImage.innerHTML = image.value;
+        newTitle.innerHTML = title.value;
+        newDescription.innerHTML = description.value;
+        newPrice.innerHTML = price.value;
+        
+    }
+   
+
  
 
     //content_card
