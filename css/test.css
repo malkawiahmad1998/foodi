@@ -1,0 +1,28 @@
+.img{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.img:hover{-webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+             box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+            transition: .5s;
+    }
+
+    .img:not(:hover){-webkit-box-shadow: 5px 5px 5px 0px #ffffff, inset 4px 4px 15px 0px #ffffff, 5px 5px 15px 5px rgba(255, 255, 255, 0); 
+        box-shadow: 5px 5px 5px 0px rgb(255, 255, 255), inset 4px 4prgb(255, 25rgb(255, 255, 255)0px #ffffff, 5px 5px 15px 5px rgba(255, 255, 255, 0));
+        transition: .5s;
+        }
+    
+
+#cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.shadowBtn:hover{
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
