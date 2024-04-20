@@ -13,11 +13,11 @@
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="name">name</label>
-            <input type="email" class="form-control" id="name" placeholder="name">
+            <input type="text" class="form-control" id="fname" placeholder="fname">
           </div>
           <div class="form-group col-md-6">
             <label for="major">major</label>
-            <input type="password" class="form-control" id="major" placeholder="major">
+            <input type="text" class="form-control" id="major" placeholder="major">
           </div>
         </div>
         <div class="form-group">
@@ -25,14 +25,14 @@
           <input type="text" class="form-control" id="profile" placeholder="profile">
         </div>
         </div>
-        <button type="submit" class="btn btn-primary">Create Card</button>
+        <button type="submit" id="submitBtn" class="btn btn-primary">Create Card</button>
       </form>
     <div id="cards">
         <div class="row">
             <div class="col-sm-6">
             <div class="card">
-                <button id="addDataBtn" class="btn btn-primary"> Add Data </button>
-                <button onclick="flipTheCard()" id="flipBtn" class="btn btn-primary flipBtn">Flip</button>
+                <button onclick="selectedCard(0)" id="addDataBtn" class="btn btn-primary"> Add Data </button>
+                <button onclick="flipTheCard(0)" id="flipBtn" class="btn btn-primary flipBtn">Flip</button>
                 <h1 class="face">face</h1>
                 <div class="card-body">
                 <h5 id="name" class="card-title">name face</h5>
@@ -43,8 +43,8 @@
             </div>
             <div class="col-sm-6">
             <div class="card">
-                <button id="addDataBtn" class="btn btn-primary"> Add Data </button>
-                <button onclick="flipTheCard()" id="flipBtn" class="btn btn-primary flipBtn">Flip</button>
+                <button onclick="selectedCard(1)" id="addDataBtn" class="btn btn-primary"> Add Data </button>
+                <button onclick="flipTheCard(1)" id="flipBtn" class="btn btn-primary flipBtn">Flip</button>
                 <h1 class="face">face</h1>
                 <div class="card-body">
                 <h5 id="name" class="card-title">name face</h5>
