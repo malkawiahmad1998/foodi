@@ -37,3 +37,38 @@ function fav(index){
 
    }
 }
+
+// let car = {
+//     name : {
+//         first : 'bmw',
+//         last :'m3',
+//     },
+
+//     model:'1998',
+//     color : function(){
+//         alert('white')
+//     },
+
+
+
+// }
+// console.log(car.color())
+
+class Character {
+    //constructors
+    constructor(name,height,weight,color){
+        this.charName = name;
+        this.charheight = height;
+        this.charweight = weight;
+        this.charcolor = color;
+
+    }
+    //methods(behaviors)
+    charMove(){
+        console.log(`${this.charName} is moving`)
+    }
+}
+
+var char1 = new Character('Ahmad',180,73,'white')
+char1.charMove();
+
