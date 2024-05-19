@@ -61,14 +61,38 @@ class Character {
         this.charheight = height;
         this.charweight = weight;
         this.charcolor = color;
+        this.charStatus = false;
+        
 
     }
     //methods(behaviors)
     charMove(){
-        console.log(`${this.charName} is moving`)
+        if(this.charStatus == true){
+            console.log(`${this.charName} is already moving`)
+
+        }else{
+            this.charStatus = true
+            console.log(`${this.charName} is moving`)
+             }
+    }
+
+    charStop(){
+        if(this.charStatus == false){
+            console.log(`${this.charName} is already stopping`)
+
+        }
+        else{
+            this.charStatus = false
+            console.log(`${this.charName} is stopping`)
+
+        }
     }
 }
 
 var char1 = new Character('Ahmad',180,73,'white')
-char1.charMove();
 
+// char1.charMove();
+// char1.charStop();
+// char1.charMove();
+char1.charMove()
+char1.charStop();
